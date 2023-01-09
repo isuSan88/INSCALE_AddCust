@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.datadriventesting.DataDrivenTest">
+        <methods>
+          <include name="setup"/>
+          <include name="addDataTest" invocation-numbers="1 2 3 4 5 6 7 8"/>
+        </methods>
+      </class> <!-- com.datadriventesting.DataDrivenTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
